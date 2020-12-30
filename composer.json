@@ -1,0 +1,17 @@
+{
+    "name": "azar.j/starter-plugin-structure",
+    "description": "a basic plugin template for wordpress",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Starter",
+            "email": "eng.johnazar@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Inc\\":"./inc"
+        }
+    }
+}
